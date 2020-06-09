@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blogg My Notes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <style>
+  /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: gray;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body{
+	background-color: gray;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+p{
+	color: white;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: gray;
+  text-align: center;
+}
+</style>
+  <body>
+  	<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="contact.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Maths Papers</button>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="selectiveschoolpapers.html">Selective School Papers</a>
+      <a href="nonselectiveschoolpapers.html">Non Selective School Papers</a>
+      <a href="independentschoolpapers.html">Independent School Papers</a>
+    </div>
+  </div>
+</div>
+<h1>Blogg My Notes</h1>
+<p>On this site you will find all the papers and resources you will need. All content is  uploaded by myself on this site. THIS WEBSITE IS NOT AFFILIATED WITH ANY GOVERNMENT NOR EDUCATION BODY. To find relevant papers simply go to the 'Resources' tab and then click papers, you will find all of the papers you will need in that folder. If there are any missing files or answers, shoot me an email. You will find my email on the 'Contact' page. <br>
+<br>
+The main reason for the creation of this site is because I know a lot of people who struggle to find good quality papers/resources to use and there's no real centralised location for them. So why not create a website that offers a centralised place where all files are kept.<br>
+<br>
+My final message is use the resources wisely, do well in your exams and make sure you thank me! Only kidding about the last part, but do keep in mind I DO NOT OWN ANY OF THE RESOURCES THAT I POST. I simply post resources that have been made by schools across NSW (Please do not sue me) Therefore don't claim any of these resources as your own. I fully own all code that has been used in this website.</p>
+<div class="footer">
+  <p>&copy A Shikhar Sinha Production 2020</p>
+</div>
